@@ -26,9 +26,9 @@
    * Specify one of: "pnpmVersion", "npmVersion", or "yarnVersion".  See the Rush documentation
    * for details about these alternatives.
    */
-  "pnpmVersion": "6.3.0",
+  // "pnpmVersion": "6.3.0",
 
-  // "npmVersion": "4.5.0",
+  "npmVersion": "8.0.0",
   // "yarnVersion": "1.9.4",
 
   /**
@@ -124,7 +124,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0",
+  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <17.0.0",
 
   /**
    * Odd-numbered major versions of Node.js are experimental.  Even-numbered releases
@@ -355,7 +355,7 @@
     //    * The folder name for this variant.
     //    */
     //   "variantName": "old-sdk",
-    // 
+    //
     //   /**
     //    * An informative description
     //    */
@@ -456,6 +456,11 @@
       "packageName": "my-toolchain",
       "projectFolder": "tools/my-toolchain",
       "reviewCategory": "tools"
+    },
+    {
+      "packageName": "sample-kit",
+      "projectFolder": "libraries/sample-kit",
+      "reviewCategory": "production"
     }
   ]
 }

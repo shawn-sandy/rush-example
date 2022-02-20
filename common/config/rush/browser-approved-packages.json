@@ -3,8 +3,32 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@shawnsandy/first-paint",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@types/node",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "colors",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "my-controls",
       "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "my-toolchain",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "rimraf",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "whatwg-fetch",
